@@ -1,0 +1,19 @@
+<html>
+ <head>
+   <meta charset="UTF-8">
+   <title>Introduction</title>
+   <script src="knockout/knockout.js"></script>
+ </head>
+ <body>
+   <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+
+ <p>First name: <input data-bind="text: firstName"></p>
+ <p>Last name: <input data-bind="text: lastName"></p>
+
+  <p>Last name: <value data-bind="text: fullname"></p>
+<button data-bind="click: capitalizeLastName">Go caps</button>
+
+ <script src="js/tutorial.js"></script>
+
+ </body>
+</html>
